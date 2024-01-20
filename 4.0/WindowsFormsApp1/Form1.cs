@@ -30,14 +30,14 @@ namespace л4
         private void button2_Click(object sender, EventArgs e)
         {
             RegistryKey key = Registry.CurrentUser.CreateSubKey(@"Lisa");
-            key.SetValue("Color", "Фиолетовый"); key.Close();
-            BackColor = System.Drawing.Color.DarkViolet;
+            key.SetValue("Color", "Синий"); key.Close();
+            BackColor = System.Drawing.Color.Blue;
         }
         private void button3_Click(object sender, EventArgs e)
         {
             RegistryKey key = Registry.CurrentUser.CreateSubKey(@"Lisa");
-            key.SetValue("Color", "Красный"); key.Close();
-            BackColor = System.Drawing.Color.Crimson;
+            key.SetValue("Color", "Черный"); key.Close();
+            BackColor = System.Drawing.Color.Black;
         }
         private void button4_Click(object sender, EventArgs e)
         {
@@ -52,10 +52,10 @@ namespace л4
             if (key != null)
             {
                 string color = (string)key.GetValue("Color");
-                if (color == "Фиолетовый")
-                    BackColor = System.Drawing.Color.DarkViolet;
-                else if (color == "Красный")
-                    BackColor = System.Drawing.Color.Crimson;
+                if (color == "Синий")
+                    BackColor = System.Drawing.Color.Blue;
+                else if (color == "Черный")
+                    BackColor = System.Drawing.Color.Black;
                 else if (color == "Розовый")
                     BackColor = System.Drawing.Color.HotPink;
             }
