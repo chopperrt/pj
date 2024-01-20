@@ -1,0 +1,16 @@
+C:\Users\229193-1\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\Users\229193-1\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\ЛБ4.Form1.resources
+C:\Users\229193-1\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\229193-1\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\229193-1\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\229193-1\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\л4.Form1.resources
+H:\практика №2\задание\4.0\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+H:\практика №2\задание\4.0\WindowsFormsApp1\obj\Debug\л4.Form1.resources
+H:\практика №2\задание\4.0\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+H:\практика №2\задание\4.0\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+H:\практика №2\задание\4.0\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+H:\практика №2\задание\4.0\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+H:\практика №2\задание\4.0\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+H:\практика №2\задание\4.0\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+H:\практика №2\задание\4.0\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+H:\практика №2\задание\4.0\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

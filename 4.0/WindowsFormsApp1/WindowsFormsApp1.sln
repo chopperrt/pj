@@ -1,0 +1,79 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using Microsoft.Win32;
+namespace л4
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            RegistryKey key = Registry.CurrentUser.CreateSubKey(@"Lisa");
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            RegistryKey key = Registry.CurrentUser.CreateSubKey(@"Lisa");
+            key.SetValue("Color", "Фиолетовый"); key.Close();
+            BackColor = System.Drawing.Color.DarkViolet;
+        }
+        private void button2_Click(object sender, EventArgs e)
+        {
+            RegistryKey key = Registry.CurrentUser.CreateSubKey(@"Lisa");
+            key.SetValue("Color", "Красный"); key.Close();
+            key.Close(); BackColor = System.Drawing.Color.Crimson;
+        }
+        private void button3_Click(object sender, EventArgs e)
+        {
+            RegistryKey key = Registry.CurrentUser.CreateSubKey(@"Lisa");
+            key.SetValue("Color", "Желтый"); key.Close();
+            BackColor = System.Drawing.Color.LightGoldenrodYellow;
+        }
+        private void button4_Click(object sender, EventArgs e)
+        {
+            RegistryKey key = Registry.CurrentUser.CreateSubKey(@"Lisa");
+            key.SetValue("Color", "Голубой"); key.Close();
+            key.Close(); BackColor = System.Drawing.Color.SlateBlue;
+        }
+        private void button5_Click(object sender, EventArgs e)
+        {
+            RegistryKey key = Registry.CurrentUser.CreateSubKey(@"Lisa");
+            key.SetValue("Color", "Розовый"); key.Close();
+            BackColor = System.Drawing.Color.HotPink;
+        }
+        private void button6_Click(object sender, EventArgs e)
+        {
+            RegistryKey key = Registry.CurrentUser.CreateSubKey(@"Lisa");
+            key.SetValue("Color", "Около серый"); key.Close();
+            key.Close(); BackColor = System.Drawing.Color.Gainsboro;
+        }
+        private void button7_Click(object sender, EventArgs e)
+        {
+            RegistryKey key = Registry.CurrentUser.CreateSubKey(@"Lisa");
+        }
+        private void button8_Click(object sender, EventArgs e)
+        {
+            RegistryKey key = Registry.CurrentUser.CreateSubKey(@"Lisa");
+            if (key != null)
+            {
+                string color = (string)key.GetValue("Color"); if (color == "Фиолетовый")
+                    BackColor = System.Drawing.Color.DarkViolet;
+                else if (color == "Красный")
+                    BackColor = System.Drawing.Color.Crimson;
+                else if (color == "Желтый")
+                    BackColor = System.Drawing.Color.LightGoldenrodYellow;
+                else if (color == "Голубой")
+                    BackColor = System.Drawing.Color.SlateBlue;
+                else if (color == "Розовый")
+                    BackColor = System.Drawing.Color.HotPink;
+                else if (color == "Около серый")
+                    BackColor = System.Drawing.Color.Gainsboro;
+            }
+        }
+    }
+}
