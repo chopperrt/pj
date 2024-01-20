@@ -36,8 +36,8 @@ namespace л4
         private void button3_Click(object sender, EventArgs e)
         {
             RegistryKey key = Registry.CurrentUser.CreateSubKey(@"Lisa");
-            key.SetValue("Color", "Красный"); key.Close();
-            BackColor = System.Drawing.Color.Crimson;
+            key.SetValue("Color", "Черный"); key.Close();
+            BackColor = System.Drawing.Color.Black;
         }
         private void button4_Click(object sender, EventArgs e)
         {
