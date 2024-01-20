@@ -54,8 +54,8 @@ namespace л4
                 string color = (string)key.GetValue("Color");
                 if (color == "Фиолетовый")
                     BackColor = System.Drawing.Color.DarkViolet;
-                else if (color == "Красный")
-                    BackColor = System.Drawing.Color.Crimson;
+                else if (color == "Черный")
+                    BackColor = System.Drawing.Color.Black;
                 else if (color == "Розовый")
                     BackColor = System.Drawing.Color.HotPink;
             }
